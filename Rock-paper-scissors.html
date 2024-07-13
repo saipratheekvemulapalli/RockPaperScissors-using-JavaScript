@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="icon" type="image/png" href="game-controller.png">
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <div id="headerdiv">
+        <ul>
+            <li class="heading">Rock-Paper-Scissors</li>
+            <li class="right"><button class="homebutton" onclick="homebutton()">Home</button></li>
+        </ul>
+    </div>
+
+    <div id="maindiv">
+        <div id="rockdiv">
+            <button id="rock" onclick="rock()">Rock</button>
+        </div>
+        <div id="paperdiv">
+            <button id="paper" onclick="paper()">Paper</button>
+        </div>
+        <div id="scissorsdiv">
+            <button id="scissors" onclick="scissors()">Scissors</button>
+        </div>
+    </div>
+
+
+
+<div class="grandparentdiv" id="grandparentdiv"> 
+<div class="resultparent" id="resultparent">
+    <div class="resultdiv" id="resultdiv">
+        <h3>Your Winnings: <span id="yourwinnings">0</span></h3>
+        <h3>Computer Winnings: <span id="computerwinnings">0</span></h3>
+        <h3>Tie Matches: <span id="tiematches">0</span></h3>
+        <button id="reset" class="reset" onclick="reset()">reset</button>
+    </div>
+</div>
+<div class="todisplayparent" id="todisplayparent">
+    <h3>Your Move: <span id="yoursmove">0</span></h3>
+    <h3>Computer Move: <span id="computersmove">0</span></h3>
+    <h3>Result: <span id="outcomeresult">0</span></h3>
+</div> 
+</div>
+
+</body>
+</html>
