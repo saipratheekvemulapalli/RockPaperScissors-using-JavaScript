@@ -1,5 +1,5 @@
 function homebutton() {
-    window.location.href = 'Home.html';
+    window.location.href = 'index.html';
 }
 
 let yourWin = 0;
