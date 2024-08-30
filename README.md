@@ -1,6 +1,7 @@
 # Rock-Paper-Scissors Game
 
 A simple Rock-Paper-Scissors game built using JavaScript, HTML, and CSS. This project demonstrates the implementation of a classic game with a user-friendly interface.
+
 [Click Here](https://saipratheekvemulapalli.github.io/RockPaperScissors-using-JavaScript/index.html)
 
 ## Features
